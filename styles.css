@@ -12,7 +12,7 @@
 }
 
 .footer{
-    background-color:light;
+    background-color:#d1c4e9;
     margin: 8px auto;
     padding: 20px 0px 20px 0px;
 }
@@ -26,4 +26,13 @@
     font-size: 80%;
     margin: 0px;
     color: #0f0f0f;
+}
+body {
+    /*navigation bar is hiding the jumbotron so we are giving padding*/
+    padding:50px 0px 0px 0px;
+    z-index: 0;
+
+}
+.navbar-dark{
+    background-color:darkblue;
 }
