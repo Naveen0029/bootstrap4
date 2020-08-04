@@ -113,36 +113,70 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-12 col-sm-8">
+            <div class="col-12 col-sm-8 col-md-8 ">
                 <div class="card">
-                    <h1 class="card-header bg bg-warning " style="color:white" id="reserving">Reserve a Table</h1>
+                    <h1 class="card-title bg bg-warning text-white" id="reserving">Reserve a Table</h1>
                     <div class="card-body">
-                        <div class="row">
-                            <div class=" col-12 col-sm-4">Number of Guests</div>
-                            <div class="col-12 col-sm-8 ">
-                                <div class="btn-group">
-                               <label>
-                                   <input type="radio" name="option" id="option1"> 1
-                               </label>&nbsp;&nbsp;
-                               <label>
-                                   <input type="radio" name="option" id="option2"> 2
-                               </label>&nbsp;&nbsp;
-                               <label>
-                                <input type="radio" name="option" id="option3"> 3
-                               </label>&nbsp;&nbsp;
-                               <label>
-                                <input type="radio" name="option" id="option4"> 4
-                               </label>&nbsp;&nbsp;  
-                               <label>
-                                <input type="radio" name="option" id="option5"> 5
-                               </label>&nbsp;&nbsp;
-                               <label>
-                                <input type="radio" name="option" id="option6"> 6
-                               </label>&nbsp;&nbsp;
+                        <form>
+                            <div class="form-group row">
+                              <div class="col-12 col-sm-4 col-md-4 ">
+                                Number of Guests
+                              </div>
+                              <div class="col-12 col-sm-8 col-md-8">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="radibutton" name="inputradio">
+                                        <label class="form-check-label" for="radibutton" value="option1"> 1</label>
+                                        
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="radibutton1" name="inputradio">
+                                        <label class="form-check-label" for="radibutton1" value="option1"> 2</label>
+                                        
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="radibutton2" name="inputradio">
+                                        <label class="form-check-label" for="radibutton2" value="option1"> 3</label>
+                                        
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="radibutton3" name="inputradio">
+                                        <label class="form-check-label" for="radibutton3" value="option1"> 4</label>
+                                        
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="radibutton4" name="inputradio">
+                                        <label class="form-check-label" for="radibutton4" value="option1"> 5</label>
+                                        
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="radibutton5" name="inputradio">
+                                        <label class="form-check-label" for="radibutton5" value="option1"> 6</label>
+                                        
+                                    </div>
+                               </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-12 col-sm-4 col-sm-4">
+                                    Date and Time
+                                </div>
+                                <div class="col-12 col-sm-8 col-md-8">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6">
+                                            <input type="text" class="form-control" placeholder="Date" name="dateandtime">
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <input type="text" class="form-control" placeholder="Time" name="dateandtime">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-sm-4">Date and Time</div>
-                        </div>
+                            <div class="form-group row">
+                                <div class="offset-sm-4 offset-md-4 col-sm-8 col-md-8">
+                                    <button class="btn btn-primary text-white" type="submit">Reserve</button>
+                                </div>
+                            </div>
+                        </form>
+                        
                     </div>
                 </div>
             </div>
