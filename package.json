@@ -27,5 +27,10 @@
   "bugs": {
     "url": "https://github.com/Naveen0029/bootstrap4/issues"
   },
-  "homepage": "https://github.com/Naveen0029/bootstrap4#readme"
+  "homepage": "https://github.com/Naveen0029/bootstrap4#readme",
+  "keywords": [
+    "My",
+    "web",
+    "project"
+  ]
 }
